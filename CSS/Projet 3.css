@@ -4,6 +4,12 @@ body
     margin: 0px;
 }
 
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
 h1
 {
     font-family: 'Shrikhand', cursive;
@@ -44,7 +50,7 @@ h2
     font-weight: bold;
 }
 
-#titremarge
+.titremarge
 {
     margin-left: 20px;
 }
@@ -277,6 +283,9 @@ h2
 {
     font-weight: lighter;
     margin-left: 20px;
+    border-bottom: 2px solid #99E2D0;
+    width: 35px;
+    padding-bottom: 10px;
 }
 
 .h3menu
@@ -287,13 +296,6 @@ h2
 .menupart
 {
     margin-top: 30px;
-}
-
-.epd
-{
-    border-bottom: 2px solid #a6e0ce;
-    width: 35px;
-    padding-bottom: 10px;
 }
 
 .intitulé
