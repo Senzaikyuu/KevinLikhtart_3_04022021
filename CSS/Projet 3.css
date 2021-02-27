@@ -89,7 +89,7 @@ h2
 {
     transform: scale(1.05);
     box-shadow: 2px 2px 20px black;
-    background-image: linear-gradient(#f09dd8, #b28de0);
+    background-image: linear-gradient(#ff79d9e1, #9256dcd7);
 }
 .group0
 {
@@ -305,7 +305,7 @@ h2
     box-shadow: 5px 5px 10px rgb(189, 173, 173);
     margin: 10px;
     padding: 10px;
-    height: 60px;
+    height: 55px;
     display: flex;
     flex-direction: column;
 }
@@ -317,7 +317,6 @@ h2
     justify-content: space-between;
     height: 30px;
     align-items: center;
-    margin-top: 10px;
     width: 100%;
 }
 
@@ -388,7 +387,7 @@ h2
 {
     transform: scale(1.1);
     box-shadow: 2px 2px 20px black;
-    background-image: linear-gradient(#f09dd8, #b28de0);
+    background-image: linear-gradient(#ff79d9e1, #9256dcd7);
 }
 
 
