@@ -18,6 +18,15 @@ h1
     margin-bottom: 40px;
 }
 
+#MainTitle
+{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
 #Location
 {
     display: flex;
@@ -42,7 +51,6 @@ h1
     flex-direction: column;
     text-align: center;
     background-color: #f5f2f2;
-    height: 235px;
 }
 
 h2
@@ -63,7 +71,6 @@ h2
 }
 .explorer
 {
-    background-color: #FF79DA;
     height: 40px;
     display: flex;
     align-items: center;
@@ -74,8 +81,16 @@ h2
     background-image: linear-gradient(#FF79DA, #9356DC);
     box-shadow: 2px 2px 10px grey;
     text-decoration: none;
+    transition: all 400ms;
+    margin-bottom: 30px;
 }
 
+.explorer:hover
+{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 20px black;
+    background-image: linear-gradient(#ee88d1, #9f6edb);
+}
 .group0
 {
     display: flex;
@@ -120,8 +135,8 @@ h2
 #bodyaccueil
 {
     background-color: #f5f2f2;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .restobox
@@ -130,6 +145,7 @@ h2
     box-shadow: 5px 5px 10px rgb(189, 173, 173);
     margin: 20px;
     margin-bottom: 40px;
+    position: relative;
 }
 
 .imageaccueil
@@ -156,10 +172,12 @@ h2
 
 .fa-heart
 {
-    margin-right: 40px;
     font-size: 30px;
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
 }
-   
+
 #footeradjust
 {
     background-color: #424242;
@@ -189,13 +207,18 @@ h2
     width: 30px;
 }
 
-/* CSS La palette du goût */ 
+/* CSS des autres pages HTML */ 
 
 #pagemenu
 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.entêtemenu
+{
+    position: relative;
 }
 
 .fa-arrow-left
@@ -258,6 +281,8 @@ h2
 .heartmenu
 {
     margin: 0px;
+    top: 15px;
+    right: 0px;
 }
 
 .boxplat
@@ -266,8 +291,9 @@ h2
     box-shadow: 5px 5px 10px rgb(189, 173, 173);
     margin: 10px;
     padding: 10px;
-    padding-top: 15px;
-    white-space: nowrap;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
 }
 
 .boxplalign
@@ -277,6 +303,8 @@ h2
     justify-content: space-between;
     height: 30px;
     align-items: center;
+    margin-top: 10px;
+    width: 100%;
 }
 
 .epd 
@@ -291,6 +319,10 @@ h2
 .h3menu
 {
     margin: 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 75%;
 }
 
 .menupart
@@ -301,6 +333,10 @@ h2
 .intitulé
 {
     font-weight: lighter;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 75%;
 }
 
 .prix
@@ -331,4 +367,64 @@ h2
     background-image: linear-gradient(#FF79DA, #9356DC);
     box-shadow: 2px 2px 10px grey;
     text-decoration: none;
+    transition: all 400ms;
+}
+
+.commander:hover
+{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 20px black;
+    background-image: linear-gradient(#ee88d1, #9f6edb);
+}
+
+
+@media all and (min-width: 1080px)
+{
+    .responsive
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .restobox
+    {
+        width: 20%;
+    }
+
+    .footres
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    #entete
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .responsive2
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .responsive2bis
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .boxplat
+    {
+        width: 25%;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
 }
