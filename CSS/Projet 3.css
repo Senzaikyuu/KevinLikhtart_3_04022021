@@ -87,9 +87,9 @@ h2
 
 .explorer:hover
 {
-    transform: scale(1.1);
+    transform: scale(1.05);
     box-shadow: 2px 2px 20px black;
-    background-image: linear-gradient(#ee88d1, #9f6edb);
+    background-image: linear-gradient(#f09dd8, #b28de0);
 }
 .group0
 {
@@ -124,6 +124,13 @@ h2
     height: 60px;
     background-color: #f5f2f2;
     box-shadow: 5px 5px 10px rgb(189, 173, 173);
+    transition: all 400ms;
+}
+
+.boxtype0:hover
+{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 20px rgb(148, 141, 141);
 }
 
 .logo1
@@ -146,6 +153,13 @@ h2
     margin: 20px;
     margin-bottom: 40px;
     position: relative;
+    transition: all 400ms;
+}
+
+.restobox:hover
+{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 20px rgb(148, 141, 141);
 }
 
 .imageaccueil
@@ -374,7 +388,7 @@ h2
 {
     transform: scale(1.1);
     box-shadow: 2px 2px 20px black;
-    background-image: linear-gradient(#ee88d1, #9f6edb);
+    background-image: linear-gradient(#f09dd8, #b28de0);
 }
 
 
