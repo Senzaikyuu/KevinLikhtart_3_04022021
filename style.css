@@ -123,6 +123,11 @@ body
     animation: overflow 15s;
 }
 
+.feinte
+{
+    animation: none;
+}
+
 a
 {
     text-decoration: none;
