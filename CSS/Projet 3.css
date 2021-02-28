@@ -7,6 +7,14 @@
     background-color: #262626;
 }
 
+@keyframes overflow
+{
+    0%
+    {
+        overflow-y: hidden;
+    }
+}
+
 .ring
 {
     position: absolute;
@@ -112,6 +120,7 @@ body
 {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
+    animation: overflow 15s;
 }
 
 a
