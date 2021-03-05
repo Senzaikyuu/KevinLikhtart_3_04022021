@@ -258,6 +258,7 @@ h2
 {
     transform: scale(1.05);
     box-shadow: 5px 5px 20px rgb(148, 141, 141);
+    cursor: pointer;
 }
 
 .logo1
@@ -347,6 +348,7 @@ h2
 .iconheart:hover path
 {
     animation: animate-heart 1s linear forwards;
+    cursor: pointer;
 }
 
 @keyframes animate-heart
@@ -487,9 +489,14 @@ h2
     opacity: 0;
 }
 
+.boxplat:hover
+{
+    cursor: pointer;
+}
+
 .boxplat:hover .animcoulissante
 {
-    animation: boxside 0.5s forwards
+    animation: boxside 0.5s forwards;
 }
 
 .boxplat:hover .fa-check-circle
