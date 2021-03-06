@@ -333,22 +333,14 @@ h2
     width: 35px;
     height: 30px;
     position: absolute;
-    right: 25px;
+    right: 20px;
     bottom: 25px;
 }
-.iconheart path
+.iconheart2 path
 {
     fill: transparent;
-    stroke-width: 20px;
-    stroke: black;
-    stroke-dasharray: 1560;
-    stroke-dashoffset: 0;
-}
-
-.iconheart:hover path
-{
-    animation: animate-heart 1s linear forwards;
-    cursor: pointer;
+    stroke-width: 25px;
+    stroke: url(#gradient1)
 }
 
 @keyframes animate-heart
@@ -365,6 +357,17 @@ h2
         stroke: url(#gradient1);
         opacity: 1;
     }
+}
+
+.iconheart path
+{
+    fill: transparent;
+}
+
+.iconheart:hover path
+{
+    animation: animate-heart 1s linear forwards;
+    cursor: pointer;
 }
 
 #footeradjust
@@ -403,11 +406,6 @@ h2
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.entêtemenu
-{
-    position: relative;
 }
 
 .fa-arrow-left
@@ -450,14 +448,18 @@ h2
     font-size: 30px;
 }
 
+.h1menubis
+{
+    height: 40px;
+}
+
 .entêtemenu
 {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     height: 60px;
     margin-left: 20px;
-    margin-right: 20px;
+    position: relative;
 }
 
 .logocoeur
