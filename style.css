@@ -4,14 +4,18 @@
     height: 100%;
     position: absolute;
     z-index: 99;
-    background-color: #262626;
+    background-color: white;
 }
 
-@keyframes overflow
+@keyframes fadeIn
 {
     0%
     {
-        overflow-y: hidden;
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
     }
 }
 
@@ -120,7 +124,17 @@ body
 {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
-    animation: overflow 15s;
+}
+
+#container
+{
+    opacity: 0;
+    animation: fadeIn 2s 5s forwards;
+}
+
+#containerbis
+{
+    animation: fadeIn 2s forwards;
 }
 
 .feinte
@@ -638,13 +652,6 @@ h2
     transform: scale(1.1);
     box-shadow: 2px 2px 20px black;
     background-image: linear-gradient(#ff79d9e1, #9256dcd7);
-}
-
-.bis
-{
-    position: absolute;
-    right: 0px;
-    bottom: 15px;
 }
 
 @keyframes appear
