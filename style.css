@@ -382,6 +382,7 @@ h2
 {
     animation: animate-heart 1s linear forwards;
     cursor: pointer;
+    -webkit-tap-highlight-color: url(#gradient1)
 }
 
 #footeradjust
