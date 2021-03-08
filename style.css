@@ -230,8 +230,9 @@ h2
 {
     transform: scale(1.05);
     box-shadow: 2px 2px 20px black;
-    background-image: linear-gradient(#ff79d9e1, #9256dcd7);
+    opacity: 0.8;
 }
+
 .group0
 {
     display: flex;
@@ -651,7 +652,7 @@ h2
 {
     transform: scale(1.1);
     box-shadow: 2px 2px 20px black;
-    background-image: linear-gradient(#ff79d9e1, #9256dcd7);
+    opacity: 0.8;
 }
 
 @keyframes appear
